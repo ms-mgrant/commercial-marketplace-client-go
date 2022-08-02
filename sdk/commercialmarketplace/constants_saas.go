@@ -156,6 +156,7 @@ type TermUnitEnum string
 const (
 	TermUnitEnumP1M TermUnitEnum = "P1M"
 	TermUnitEnumP1Y TermUnitEnum = "P1Y"
+	TermUnitEnumP3Y TermUnitEnum = "P3Y"
 )
 
 // PossibleTermUnitEnumValues returns the possible values for the TermUnitEnum const type.
@@ -163,6 +164,7 @@ func PossibleTermUnitEnumValues() []TermUnitEnum {
 	return []TermUnitEnum{	
 		TermUnitEnumP1M,
 		TermUnitEnumP1Y,
+		TermUnitEnumP3Y
 	}
 }
 
